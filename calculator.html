@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+
+
+
+    <!-- how to max the screenNum span
+        inside screen div ?
+
+
+        button delete          del.
+
+
+
+        grid
+        display flex
+        alighn-items: center;
+
+    box-sizing: boxing-size;
+    -->
+
+    <div id="calculatorScl">
+
+        <div id="screen">
+            <span>&nbsp;&hairsp;</span>
+            <!-- <input type="text"  value="&nbsp; HELLO"> -->
+            <div id="screenNum">0</div>
+            <div id="screenAction"></div>
+        </div>
+
+        <div id="buttonGrid">
+
+            
+            <button class="calcButton" onclick="buttonCle()">C</button>
+            <button class="calcButton" onclick="buttonDot()">.</button>
+            <button class="calcButton" onclick="buttonPos()">M+</button>
+            <button class="calcButton" onclick="buttonNeg()">M-</button>
+            
+            <button class="calcButton" onclick="buttonCop()">&copy;</button>
+            <button class="calcButton" onclick="buttonPas()">&copysr;</button>
+            <button class="calcButton" onclick="buttonSqr()">&#8730;</button>
+            <button class="calcButton" onclick="buttonSup()">y&sup2;</button>
+            
+            <button class="calcButton numButton" onclick="button1()">1</button>
+            <button class="calcButton numButton" onclick="button2()">2</button>
+            <button class="calcButton numButton" onclick="button3()">3</button>
+            <button class="calcButton" onclick="buttonMul()">x</button>
+
+            <button class="calcButton numButton" onclick="button4()">4</button>
+            <button class="calcButton numButton" onclick="button5()">5</button>
+            <button class="calcButton numButton" onclick="button6()">6</button>
+            <button class="calcButton" onclick="buttonDiv()">&#247;</button>
+
+            <button class="calcButton numButton" onclick="button7()">7</button>
+            <button class="calcButton numButton" onclick="button8()">8</button>
+            <button class="calcButton numButton" onclick="button9()">9</button>
+
+            <button class="calcButton2" onclick="buttonEqu()">=</button>
+            
+            <button class="calcButton" onclick="buttonMin()">-</button>
+            <button class="calcButton numButton" onclick="button0()">0</button>
+            <button class="calcButton" onclick="buttonPul()">+</button>
+
+
+        </div>
+    </div>
+    <!--calculatorSclEnd-->
+
+    <script src="calculator.js "></script>
+</body>
+
+</html>
